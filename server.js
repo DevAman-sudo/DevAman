@@ -5,6 +5,7 @@ const port = process.env.PORT || 8080;
 const hbs = require('hbs');
 const chalk = require('chalk');
 const path = require('path');
+require('./routes/routes')(app);
 
 // files path //
 const staticPath = path.join(__dirname , '/public/');
