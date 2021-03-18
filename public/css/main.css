@@ -1,12 +1,27 @@
+/* star universal selector */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body {
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
+/* root selector */
+:root {
+    --soft-white: #f1f1f1;
+}
+
+/* html and body tag */
+html { font-size: 62.5% }
+body {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* header section */
 nav {
   height: 10vh;
   background: #5b78c7;
