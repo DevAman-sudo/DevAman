@@ -24,8 +24,14 @@ body {
 }
 
 /* header section */
+#main_nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 nav {
-    position: sticky;
     height: 7.5rem;
     background: #5b78c7;
 }
@@ -114,4 +120,12 @@ nav {
     li.fade {
         opacity: 1;
     }
+}
+
+/* ----------------------------------- */
+
+.section {
+    width: 100vw;
+    height: 200vh;
+    background: black;
 }
