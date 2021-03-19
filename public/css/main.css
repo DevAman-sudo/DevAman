@@ -88,6 +88,11 @@ nav {
         margin: 0.5rem;
         border-radius: 1rem;
     }
+    .line:nth-child(2) {
+        width: 2.5rem;
+        margin-left: auto;
+    }
+
     nav {
         position: relative;
     }
