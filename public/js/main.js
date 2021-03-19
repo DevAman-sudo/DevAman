@@ -1,5 +1,6 @@
 // DOM elements //
 const mainNav = document.getElementById('main_nav');
+const logo = document.querySelector('.logo');
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li");
@@ -9,8 +10,10 @@ window.addEventListener('scroll', () => {
     if (window.pageYOffset > 0) {
         mainNav.style.transition = "0.3s ease-in";
         mainNav.style.height = '6.5rem';
+        logo.style.fontSize = "2.3rem";
     } else {
         mainNav.style.height = "7.5rem";
+        logo.style.fontSize = "2.5rem";
     }
 });
 
