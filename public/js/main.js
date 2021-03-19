@@ -12,6 +12,7 @@ window.addEventListener('scroll', () => {
         mainNav.style.height = '6.5rem';
         logo.style.fontSize = "2.3rem";
     } else {
+        mainNav.style.transition = "0.2s ease-in";
         mainNav.style.height = "7.5rem";
         logo.style.fontSize = "2.5rem";
     }

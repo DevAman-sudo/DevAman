@@ -67,6 +67,19 @@ nav {
     font-size: 16px;
 }
 
+.nav-links-child:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0.2rem;
+    background: white;
+    transition: width 0.3s;
+}
+
+.nav-links-child:hover::after {
+    width: 100%;
+}
+
 @media screen and (max-width: 768px) {
     .line {
         width: 3.2rem;
