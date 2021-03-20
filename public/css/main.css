@@ -35,7 +35,6 @@ body {
 nav {
     height: 7.5rem;
     background: black;
-    /* box-shadow: 0 0.1rem 0.2rem rgba(255 , 255 , 255 , 0.4); */
 }
 
 .logo {
@@ -151,4 +150,29 @@ nav {
     width: 100vw;
     height: 200vh;
     background: var(--main-backgrounds);
+}
+
+/* hero section */
+.hero {
+    position: relative;
+    margin-top: 7.5rem;
+    z-index: -1;
+}
+
+.hero-img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.hero-txt {
+    position: absolute;
+    top: 40%;
+    left: 1rem;
+}
+
+.hero p {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
 }
