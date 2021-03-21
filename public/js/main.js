@@ -28,3 +28,15 @@ hamburger.addEventListener("click", () => {
     link.classList.toggle("fade");
   });
 });
+
+// typed js //
+const typed = new Typed('.type', {
+  strings: [
+      "Developer. ",
+      "Programmer. ",
+      "Bug Hunter. "
+      ],
+  typeSpeed: 50,
+  backSpeed: 50,
+  loop: true
+});

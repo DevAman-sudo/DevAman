@@ -154,8 +154,6 @@ nav {
 
 /* hero section */
 .hero {
-    /* position: relative; */
-    /* margin-top: 7.5rem; */
     z-index: -1;
 }
 
@@ -166,8 +164,6 @@ nav {
 }
 
 .hero-txt {
-    /* position: absolute; */
-    /* top: 50%; */
     margin-left: 1rem;
 }
 
@@ -175,4 +171,14 @@ nav {
     font-size: 4rem;
     font-weight: bold;
     color: white;
+}
+
+.hero small {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero .type {
+    color: red;
 }
