@@ -9,6 +9,7 @@
 /* root selector */
 :root {
     --main-background: #121212;
+    --rubik: 'Rubik', sans-serif;
 }
 
 /* html and body tag */
@@ -171,6 +172,7 @@ nav {
 /* hero section */
 .hero {
     z-index: -1;
+    font-family: var(--rubik);
 }
 
 .hero-img {
