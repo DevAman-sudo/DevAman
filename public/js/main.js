@@ -22,21 +22,32 @@ window.addEventListener('scroll', () => {
 
 
 // Hamburger Menu //
+let menuOpen = false;
 hamburger.addEventListener("click", () => {
-  navLinks.classList.toggle("open");
-  links.forEach(link => {
-    link.classList.toggle("fade");
-  });
+    // hamburger animation //
+    if (!menuOpen) {
+        hamburger.classList.add('open-menu');
+        menuOpen = true;
+    } else {
+        hamburger.classList.remove('open-menu');
+        menuOpen = false;
+    }
+
+    // toggle function //
+    navLinks.classList.toggle("open");
+    links.forEach(link => {
+        link.classList.toggle("fade");
+    });
 });
 
 // typed js //
 const typed = new Typed('.type', {
-  strings: [
-      "Developer. ",
-      "Programmer. ",
-      "Bug Hunter. "
-      ],
-  typeSpeed: 50,
-  backSpeed: 50,
-  loop: true
+    strings: [
+        "Developer. ",
+        "Programmer. ",
+        "Bug Hunter. "
+    ],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true
 });
