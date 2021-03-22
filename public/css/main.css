@@ -171,6 +171,7 @@ nav {
 
 /* hero section */
 .hero {
+    line-height: 6rem;
     z-index: -1;
     font-family: var(--rubik);
 }
@@ -190,13 +191,28 @@ nav {
     font-weight: bold;
     color: white;
 }
+.hero .small-txt {
+    font-size: 2rem;
+    color: #f1f1f1;
+}
 
 .hero small {
     color: white;
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-weight: bold;
 }
 
 .hero .type {
     color: red;
+}
+
+/* social icons */
+.social-icons {
+    display: flex;
+}
+
+.social-icons .icons {
+    margin: 1rem;
+    font-size: 4rem;
+    color: #ccc;
 }
