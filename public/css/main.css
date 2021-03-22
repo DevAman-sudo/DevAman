@@ -198,7 +198,7 @@ nav {
 
 .hero small {
     color: white;
-    font-size: 2.7rem;
+    font-size: 2.6rem;
     font-weight: bold;
 }
 
@@ -209,10 +209,23 @@ nav {
 /* social icons */
 .social-icons {
     display: flex;
+    list-style: none;
 }
 
 .social-icons .icons {
     margin: 1rem;
     font-size: 4rem;
     color: #ccc;
+}
+
+.lets-chat-btn {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border: 0.2rem solid red;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: #f1f1f1;
+    cursor: pointer;
 }
