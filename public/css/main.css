@@ -8,6 +8,8 @@
 
 /* root selector */
 :root {
+    --red: #C70039;
+    --white: #F9EBEA;
     --main-background: #121212;
     --rubik: 'Rubik', sans-serif;
 }
@@ -189,7 +191,7 @@ nav {
 .hero p {
     font-size: 4rem;
     font-weight: bold;
-    color: white;
+    color: var(--white);
 }
 .hero .small-txt {
     font-size: 2rem;
@@ -203,7 +205,7 @@ nav {
 }
 
 .hero .type {
-    color: red;
+    color: var(--red);
 }
 
 /* social icons */
@@ -219,13 +221,19 @@ nav {
 }
 
 .lets-chat-btn {
+    width: 20rem;
     font-size: 2rem;
     letter-spacing: 0.1rem;
     margin: 1rem;
     padding: 0.5rem 1rem;
-    border: 0.2rem solid red;
+    border: 0.2rem solid var(--red);
     border-radius: 0.5rem;
     text-decoration: none;
-    color: #f1f1f1;
+    color: var(--white);
     cursor: pointer;
+    background: var(--red);
+    transition: background 0.1s ease-in;
+}
+.lets-chat-btn:hover {
+    background: none;
 }
