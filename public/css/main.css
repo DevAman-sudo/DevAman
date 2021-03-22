@@ -218,6 +218,11 @@ nav {
     margin: 1rem;
     font-size: 4rem;
     color: #ccc;
+    transition: 0.2s ease;
+}
+.social-icons .icons:hover {
+    color: var(--white);
+    transform: translate(0 , -0.5rem);
 }
 
 .lets-chat-btn {
@@ -236,4 +241,47 @@ nav {
 }
 .lets-chat-btn:hover {
     background: none;
+}
+
+/* About Me Section */
+.about_me {
+    width: 100%;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about_me_p {
+    margin: 0 auto;
+    color: var(--white);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.about_me_small {
+    font-size: 1.5rem;
+    color: var(--white);
+    margin: 0 auto;
+}
+
+.about_me_small::before {
+    content: '';
+    position: absolute;
+    left: 30%;
+    width: 5rem;
+    height: 0.2rem;
+    border-radius: 1rem;
+    color: white;
+    background: var(--white);
+}
+
+.about_me_small::after {
+    content: '';
+    position: absolute;
+    right: 30%;
+    width: 5rem;
+    height: 0.2rem;
+    border-radius: 1rem;
+    color: white;
+    background: var(--white);
 }
