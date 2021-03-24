@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
 /* root selector */
@@ -11,7 +10,9 @@
     --red: #C70039;
     --white: #F9EBEA;
     --main-background: #121212;
+    --poppins: 'Poppins', sans-serif;
     --rubik: 'Rubik', sans-serif;
+    --Syncopate: 'Syncopate', sans-serif;
 }
 
 /* html and body tag */
@@ -48,6 +49,7 @@ nav {
     transition: 0.5s ease-in;
     letter-spacing: 0.2rem;
     text-shadow: 0.2rem 0.2rem 0.4rem #ccc;
+    font-family: var(--poppins);
 }
 
 .nav-links {
@@ -231,7 +233,7 @@ nav {
     font-size: 2rem;
     letter-spacing: 0.1rem;
     margin: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1rem;
     border: 0.2rem solid var(--red);
     border-radius: 0.5rem;
     text-decoration: none;
@@ -296,6 +298,8 @@ nav {
     font-size: 1.5rem;
     letter-spacing: 0.1rem;
     word-spacing: 0.3rem;
+    line-height: 3rem;
+    font-family: var(--Syncopate);
 }
 
 /* projects section */
