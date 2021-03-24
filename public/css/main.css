@@ -111,18 +111,18 @@ nav {
         transform: translate(-5%, -50%);
         z-index: 2;
     }
-    
+
     /* hamburger animations */
     .open-menu .line:nth-child(1) {
         transform: rotate(45deg) translate(0 , 1.5rem);
     }
-    
+
     .open-menu .line:nth-child(2) {
         transform: translate(-5rem);
         background: transparent;
         box-shadow: none;
     }
-    
+
     .open-menu .line:nth-child(3) {
         transform: rotate(-45deg) translate(0 , -1.5rem);
     }
@@ -192,9 +192,10 @@ nav {
 }
 
 .hero p {
-    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+    font-size: 5rem;
     font-weight: bold;
-    color: var(--white);
 }
 .hero .small-txt {
     font-size: 2rem;
@@ -209,6 +210,11 @@ nav {
 
 .hero .type {
     color: var(--red);
+}
+
+.aman {
+    -webkit-text-stroke: 0.1rem white;
+    color: var(--main-backgrounds);
 }
 
 /* social icons */
