@@ -218,6 +218,7 @@ nav {
     margin: 1rem;
     font-size: 4rem;
     color: #ccc;
+    cursor: pointer;
     transition: 0.2s ease;
 }
 .social-icons .icons:hover {
@@ -273,6 +274,7 @@ nav {
     border-radius: 1rem;
     color: white;
     background: var(--white);
+    z-index: -1;
 }
 
 .about_me_small::after {
@@ -284,4 +286,20 @@ nav {
     border-radius: 1rem;
     color: white;
     background: var(--white);
+    z-index: -1;
+}
+
+.about_me_text {
+    color: var(--white);
+    text-align: center;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+}
+
+/* projects section */
+.projects {
+    display: flex;
+    flex-direction: column;
 }
