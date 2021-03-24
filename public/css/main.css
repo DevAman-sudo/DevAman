@@ -63,6 +63,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     margin-left: auto;
+    font-family: var(--rubik);
 }
 
 .nav-links li a {
