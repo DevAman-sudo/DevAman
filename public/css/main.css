@@ -218,12 +218,6 @@ nav {
 
 /* ----------------------------------- */
 
-.section {
-    width: 100vw;
-    height: 200vh;
-    background: var(--main-backgrounds);
-}
-
 /* hero section */
 .hero {
     line-height: 6rem;
