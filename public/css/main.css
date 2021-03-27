@@ -28,6 +28,19 @@ body {
     background: var(--main-background);
 }
 
+/* Scroll Out JS */
+[data-scroll] {
+    transition: opacity 2s;
+}
+
+[data-scroll="in"] {
+    opacity: 1;
+}
+
+[data-scroll="out"] {
+    opacity: 0;
+}
+
 /* starting animation */
 main {
     width: 100vw;
@@ -299,8 +312,9 @@ nav {
 
 /* About Me Section */
 .about_me {
+    z-index: -1;
     width: 100%;
-    margin-top: 7rem;
+    margin-top: 15rem;
     display: flex;
     flex-direction: column;
 }

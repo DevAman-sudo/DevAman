@@ -37,7 +37,7 @@
             <p class="small-txt">
                 Hey, my name is
             </p>
-            <p class="aman">
+            <p class="aman" data-scroll>
                 Aman Shah
             </p>
             <small>And I'm a <span class="type"></span></small>
@@ -55,8 +55,8 @@
     <a href="#" class="lets-chat-btn">Let`s Chat <i class="fas fa-arrow-right"></i></a>
 
     <!-- About Me Section -->
-    <div class="about_me">
-        <p class="about_me_p">
+    <div class="about_me" data-scroll >
+        <p class="about_me_p" >
             About Me
         </p>
         <p class="about_me_small">
@@ -75,6 +75,9 @@
     <!-- javascript files and codes -->
     {{>javascript}}
     <script>
+        // ScrollOut //
+        ScrollOut();
+    
         // gsap animations //
         const tl = gsap.timeline({
             defaults: {
