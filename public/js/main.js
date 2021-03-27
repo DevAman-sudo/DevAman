@@ -10,7 +10,7 @@ window.addEventListener('scroll', () => {
     if (window.pageYOffset > 0) {
         mainNav.style.transition = "0.3s ease-in";
         mainNav.style.height = '6.5rem';
-        mainNav.style.background = "black";
+        mainNav.style.background = "#C70039";
         logo.style.fontSize = "2.3rem";
     } else {
         mainNav.style.transition = "0.2s ease-in";
