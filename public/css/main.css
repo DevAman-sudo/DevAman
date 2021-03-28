@@ -36,11 +36,12 @@ body {
     letter-spacing: 0.2rem;
     font-size: 5rem;
     margin: 1rem;
+    font-family: var(--rubik);
 }
 
 /* Scroll Out JS */
 [data-scroll] {
-    transition: opacity 1s ease-in;
+    transition: opacity 3s ease;
 }
 
 [data-scroll="in"] {
