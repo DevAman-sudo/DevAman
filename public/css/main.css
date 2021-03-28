@@ -29,6 +29,15 @@ body {
     background: var(--main-background);
 }
 
+/* stroke animation */
+.stroke-text {
+    -webkit-text-stroke: 0.1rem var(--white);
+    color: none;
+    letter-spacing: 0.2rem;
+    font-size: 5rem;
+    margin: 1rem;
+}
+
 /* Scroll Out JS */
 [data-scroll] {
     transition: opacity 1s ease-in;
@@ -110,7 +119,7 @@ main {
     right: 3%;
     width: 4rem;
     height: 4rem;
-    background: var(--red);
+    border: 0.1rem solid var(--red);
     border-radius: 0.3rem;
     display: flex;
     align-items: center;
@@ -406,6 +415,8 @@ nav {
 
 /* projects section */
 .projects {
+    margin-top: 10rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
