@@ -4,7 +4,7 @@ const logo = document.querySelector('.logo');
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li");
-const progressBar = document.querySelector('progress-bar');
+const toTop = document.querySelector('.to-top');
 
 // navbar animation //
 window.addEventListener('scroll', () => {
@@ -40,7 +40,14 @@ hamburger.addEventListener("click", () => {
     });
 });
 
-// Scroll Bar Animations //
+// Scroll To Top //
+window.addEventListener('scroll' , () => {
+    if (window.pageYOffset > 100) {
+        toTop.classList.add('active');
+    } else {
+        toTop.classList.remove('active');
+    }
+});
 
 // typed js //
 const typed = new Typed('.type', {
