@@ -91,6 +91,17 @@ main {
     display: inline-block;
 }
 
+/* scroll bar animation */
+.progress-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0.5rem;
+    height: 0;
+    border-radius: 1rem;
+    background: var(--red);
+}
+
 /* header section */
 #main_nav {
     position: fixed;

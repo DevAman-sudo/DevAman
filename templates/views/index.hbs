@@ -23,7 +23,9 @@
         </div>
     </div>
     <div class="slider"></div>
-
+    
+    <!-- scroll bar animation -->
+    <div class="progress-bar"></div>
 
     <!-- header section -->
     {{>header}}
@@ -75,6 +77,15 @@
     <!-- javascript files and codes -->
     {{>javascript}}
     <script>
+        // Scroll Bar Animation //
+        $(window).scroll(function(){
+            var scroll = $(window).scrollTop(),
+            dh = $(document).height(),
+            wh = $(window).height();
+            scrollPercent = (scroll / (dh - wh)) * 100;
+            $('.progress-bar').css('height', scrollPercent + "%");
+        })
+    
         // ScrollOut //
         ScrollOut();
     
