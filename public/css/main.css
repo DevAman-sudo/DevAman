@@ -30,7 +30,7 @@ body {
 
 /* Scroll Out JS */
 [data-scroll] {
-    transition: opacity 3s;
+    transition: opacity 1s ease-in;
 }
 
 [data-scroll="in"] {
