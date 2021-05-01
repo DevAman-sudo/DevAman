@@ -39,6 +39,15 @@ body {
     font-family: var(--rubik);
 }
 
+.stroke-text-small {
+    -webkit-text-stroke: 0.1rem var(--white);
+    color: none;
+    letter-spacing: 0.2rem;
+    font-size: 3.5rem;
+    margin: 0.2rem 1rem;
+    font-family: var(--rubik);
+}
+
 /* Scroll Out JS */
 [data-scroll] {
     transition: opacity 3s ease;
@@ -420,4 +429,23 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* projects img */ 
+.project-img {
+    border-top: 0.1rem solid var(--white);
+    border-bottom: 0.1rem solid var(--white);
+    padding: 2rem 0;
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+}
+
+.project-img img {
+    max-width: 95vw;
+    margin: 1rem auto;
+    height: auto;
+    object-fit: cover;
 }
